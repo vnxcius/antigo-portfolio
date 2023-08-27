@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>vinisimon.dev | Página Inicial</title>
+  <meta name="description" content="Olá! Meu nome é Vinícius Simon Desenvolvedor Jr. Seja muito bem vindo ao meu portfólio!">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&family=Rubik:wght@300;400;500;700&family=Varela+Round&family=Krona+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <nav class="sidebar" data-sidebar>
+    <div class="logo-content">
+      <a href="#" class="logo">vinisimon.dev</a>
+      <a id="nav-btn" data-sidebar-toggle-btn>
+        <ion-icon name="menu"></ion-icon>
+      </a>
+    </div>
+
+    <ul class="nav-list">
+
+      <li>
+        <a href="#about" tabindex="-1">
+          <ion-icon name="information-circle"></ion-icon>
+          <p class="link-name">Sobre</p>
+        </a>
+        <span class="tooltip">Sobre</span>
+      </li>
+
+      <li>
+        <a href="#skills" tabindex="-1">
+          <ion-icon name="stats-chart"></ion-icon>
+          <p class="link-name">Habilidades</p>
+        </a>
+        <span class="tooltip">Habilidades</span>
+      </li>
+
+      <li>
+        <a href="#portfolio" tabindex="-1">
+          <ion-icon name="albums"></ion-icon>
+          <p class="link-name">Portfólio</p>
+        </a>
+        <span class="tooltip">Portfólio</span>
+      </li> 
+
+      <li>
+        <a href="#contact" tabindex="-1">
+          <ion-icon name="person"></ion-icon> 
+          <p class="link-name">Contato</p>
+        </a>
+        <span class="tooltip">Contato</span>
+      </li>
+
+    </ul>
+
+    <input type="checkbox" id="data-darkmode-btn">
+    <label for="data-darkmode-btn" data-darkmode-btn>
+      <ion-icon name="sunny" class="sun"></ion-icon>
+      <ion-icon name="moon" class="moon"></ion-icon>
+    </label>
+
+
+
+
+    <hr class="hr">
+
+    <p class="copyright">
+      &copy; Copyright 2022 <br> Todos os Direitos Reservados
+    </p>
+
+  </nav>
+
+  <main id="main">
+
+    <div class="hero">
+      <div class="container-grid">
+  
+        <p class="hero-text" style="color: white;">
+          Olá! Meu nome é
+          <strong class="strong-about">Vinícius Simon</strong>
+          <span style="font-size: 17px; font-style: italic; margin: 0 0 5px 10px;">20 anos</span>
+          <span style="font-size: 17px; font-style: italic; margin: 0 0 0 10px;">Desenvolvedor Jr.</span><br><br>
+          Seja muito bem vindo ao meu portfólio!
+        </p>
+        <img src="./assets/img/perfil.png" alt="adasd" class="blob">
+
+        <div class="abs-icon abs-icon-1">
+          <img src="./assets/img/html5.svg" alt="">
+        </div>
+        <div class="abs-icon abs-icon-2">
+          <img src="./assets/img/javascript.svg" alt="" class="img-2">
+        </div>
+        <div class="abs-icon abs-icon-3">
+          <img src="./assets/img/php.svg" alt="" class="img-3">
+        </div>
+
+        
+      </div>
+      <section class="section btns">
+        <a href="#about">
+          <button class="btn primary">Sobre mim</button>
+        </a>
+        <a href="#contact">
+          <button class="btn secondary">Contato</button>
+        </a>
+      </section>
+
+    </div>
+    
+    <img src="./assets/img/wavesOpacity.svg" alt="" class="divider-top">
+
+
+    <section class="section about reveal">
+      <h1 class="h1" id="about">Sobre mim</h1>
+
+      <img src="./assets/img/perfil.png" alt="Vinicius Simon" class="about-img">
+
+      <p class="about-text">
+        Desde criança, por volta dos 8 anos, sempre fui muito ligado à tecnologia e desde então ela faz
+        parte de mim. Sempre gostei de computadores e com o tempo fui aprendendo sozinho como eles funcionam
+        tanto por dentro como por fora. Comecei a aprender programação sozinho, buscando cursos online gratuitos
+        e posteriormente cursando alguns da plataforma Alura e enfim em 2022 entrei para faculdade de Gestão de TI.
+      </p>
+      <p class="about-text">
+        Decidi então seguir carreira nessa área e continuo sempre evoluindo e acompanhando as  novas tecnologias,
+        pois é o que realmente gosto de fazer. Desejo me tornar um Desenvolvedor Fullstack, com um provável foco
+        a mais no back-end, como PHP e Java.
+      </p>
+    </section>
+
+
+    <section class="section skills reveal">
+      <h1 class="h1" id="skills">Minhas Habilidades</h1>
+      <h2 class="h2">Embora estejamos sempre aprendendo algo novo, esse é o nível de habilidade que eu
+        considero ter
+      </h2>
+
+      <div class="skill-total">
+        <div class="skill-progress skl-1"></div>
+        <p class="skill-title">HTML/CSS/JS</p>
+      </div>
+
+      <div class="skill-total">
+        <div class="skill-progress skl-2"></div>
+        <p class="skill-title">PHP</p>
+      </div>
+    </section>
+
+
+    <section class="section portfolio reveal">
+
+
+        <h1 class="h1" id="portfolio">Meus Projetos</h1>
+
+        <p class="h2">
+          Aqui você pode encontrar boa parte dos meus pequenos a grandes projetos!
+        </p>
+
+        <ul class="portfolio-list">
+
+          <li>
+            <a href="#" class="portfolio-card" style="background-image: url('./assets/img/site_vini.png');">
+              <div class="card-content">
+  
+                <p class="card-subtitle">vinisimon.dev</p>
+  
+                <h3 class="h3 card-title">Este site foi inteiramente desenvolvido por mim</h3>
+  
+                <span class="btn-link">
+                  <span>Visitar</span>
+  
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </span>
+  
+              </div>
+            </a>
+          </li>
+          
+          <li>
+            <a href="#" target="_blank" class="portfolio-card" style="background-image: url('./assets/img/site_deb.png'); background-position: left;">
+              <div class="card-content">
+
+                <p class="card-subtitle">Olie Deb Art</p>
+
+                <h3 class="h3 card-title">Portfólio feito para a designer Debora de Oliveira</h3>
+
+                <span class="btn-link">
+                  <span>Visitar</span>
+
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </span>
+
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank" class="portfolio-card" style="background-image: url('./assets/img/github.png'); background-position: left;">
+              <div class="card-content">
+
+                <p class="card-subtitle">Meu Github</p>
+
+                <h3 class="h3 card-title">Link para meu github onde você pode encontrar detalhes dos meus projetos</h3>
+
+                <span class="btn-link">
+                  <span>Visitar</span>
+
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </span>
+
+              </div>
+            </a>
+          </li>
+
+        </ul>
+
+    </section>
+
+    <img src="./assets/img/tilt.svg" alt="Divider tilted" class="divider-bottom">
+
+    <div class="section contact-wrapper">
+      <section class="section contact" id="contact">
+  
+        <h1 class="h1" style="padding: 0;">Entre em Contato</h1>
+
+        <div class="btn-resume">
+          <a href="#" target="_blank">
+            <button class="btn secondary resume">Currículo</button>
+  
+          </a>
+
+        </div>
+
+  
+        <div class="container-form">
+          <form class="contact-form" target="_blank" action="#" method="POST">
+            
+            <div class="form-group">
+              <input class="contact-field" type="text" name="name" id="name" placeholder="Digite seu nome" required>
+              <input class="contact-field" type="email" name="email" id="email" placeholder="Digite seu email" required>
+            </div>
+            <textarea class="contact-message" name="message" id="subject" cols="30" rows="10" maxlength="1000" placeholder="Digite sua mensagem..." required></textarea>
+            
+            <div class="section btns">
+              <button class="btn primary contact" type="submit">Enviar</button>
+
+            </div>
+  
+            <input type="hidden" name="_subject" value="Novo contato por email!">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="box">
+            
+          </form>
+  
+          <ul class="social-links">
+
+            <li> 
+              <a href="#" target="_blank" class="social-link">
+                <ion-icon name="logo-linkedin" ></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-discord"></ion-icon>
+              </a>
+            </li>
+
+
+            <li>
+              <a href="#" target="_blank" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+  
+        </div>
+        
+  
+      </section>
+
+    </div>
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
